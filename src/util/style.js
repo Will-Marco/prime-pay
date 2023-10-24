@@ -15,3 +15,10 @@ export const styles = {
   heading2:
     "font-montserrat font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
 };
+
+export const layout = {
+  section: `${styles.paddingY} flex md:flex-row flex-col`,
+  sectionInfo: `${styles.flexStart} flex-1 flex-col`,
+  sectionImage: `md:ml-10 ml-0 ${styles.flexCenter} flex-1 relative`,
+  sectionImageReverse: `md:mr-10 ml-0 md:mt-0 mt-10 ${styles.flexCenter} flex-1 relative`,
+};

@@ -1,4 +1,4 @@
-import { Navbar, Home, Statistics } from "./components";
+import { Navbar, Home, Statistics, Contract, Billing } from "./components";
 import { styles } from "./util/style";
 
 function App() {
@@ -22,6 +22,8 @@ function App() {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={styles.container}>
           <Statistics />
+          <Contract />
+          <Billing />
         </div>
       </div>
     </div>
