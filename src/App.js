@@ -1,4 +1,4 @@
-import { Home, Navbar } from "./components";
+import { Navbar, Home, Statistics } from "./components";
 import { styles } from "./util/style";
 
 function App() {
@@ -15,6 +15,13 @@ function App() {
       <div className={styles.flexStart}>
         <div className={styles.container}>
           <Home />
+        </div>
+      </div>
+
+      {/* Hero section */}
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={styles.container}>
+          <Statistics />
         </div>
       </div>
     </div>
