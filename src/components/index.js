@@ -7,3 +7,5 @@ export { default as Billing } from "./Billing";
 export { default as Business } from "./Business";
 export { default as FeatureCard } from "./Feature-card";
 export { default as CTA } from "./CTA";
+export { default as Testimonials } from "./Testimonials";
+export { default as FeedbackCard } from "./Feedback-card";

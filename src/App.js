@@ -6,6 +6,7 @@ import {
   Billing,
   Business,
   CTA,
+  Testimonials,
 } from "./components";
 import { styles } from "./util/style";
 
@@ -33,6 +34,7 @@ function App() {
           <Contract />
           <Billing />
           <Business />
+          <Testimonials />
           <CTA />
         </div>
       </div>
