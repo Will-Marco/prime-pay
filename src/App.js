@@ -8,6 +8,7 @@ import {
   CTA,
   Testimonials,
   Clients,
+  Footer,
 } from "./components";
 import { styles } from "./util/style";
 
@@ -38,6 +39,7 @@ function App() {
           <Testimonials />
           <Clients />
           <CTA />
+          <Footer />
         </div>
       </div>
     </div>

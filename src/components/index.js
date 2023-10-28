@@ -11,3 +11,5 @@ export { default as Testimonials } from "./Testimonials";
 export { default as FeedbackCard } from "./Feedback-card";
 export { default as Clients } from "./Clients";
 export { default as ClientCard } from "./Client-card";
+export { default as Footer } from "./Footer";
+export { default as FooterCard } from "./Footer-card";
