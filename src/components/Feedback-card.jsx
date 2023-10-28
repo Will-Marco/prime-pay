@@ -4,6 +4,7 @@ import { feedbacks } from "../util/constants";
 const FeedbackCard = ({ id, title, name, content }) => {
   return (
     <div
+      id="clients"
       className={`${
         id === feedbacks.length
           ? "md:mr-0 sm:mr-0 mr-0"

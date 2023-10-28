@@ -13,7 +13,9 @@ const Navbar = () => {
   return (
     <div className={`w-full py-6 ${styles.flexBetween}`}>
       {/* Brand Logo */}
-      <img src={logo} alt="logo" className="w-[130px] cursor-pointe" />
+      <a href="/">
+        <img src={logo} alt="logo" className="w-[130px] cursor-pointe" />
+      </a>
 
       {/* Navigation links */}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
@@ -25,7 +27,7 @@ const Navbar = () => {
             p-2 text-[16px] text-lightWhite font-montserrat font-normal cursor-pointer hover:text-white transition-all duration-500`}
             onClick={() => activeHandler(nav.id)}
           >
-            {nav.title}
+            <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
       </ul>
@@ -42,7 +44,7 @@ const Navbar = () => {
         <div
           className={`${
             !toggleNav ? "hidden" : "flex"
-          } p-6 w-full absolute top-[8rem] left-0 right-0 bg-black-gradient sidebar`}
+          } p-6 w-full absolute top-[8rem] left-0 right-0 bg-black-gradient sidebar z-[99]`}
         >
           <ul className="list-none flex flex-1 flex-col justify-center items-center">
             {navigationLink.map((nav, idx) => (
@@ -54,7 +56,7 @@ const Navbar = () => {
                 p-2 text-[16px] text-lightWhite font-montserrat font-normal cursor-pointer hover:text-white transition-all duration-500`}
                 onClick={() => activeHandler(nav.id)}
               >
-                {nav.title}
+                <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
           </ul>

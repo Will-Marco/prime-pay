@@ -5,7 +5,7 @@ import FeatureCard from "./Feature-card";
 
 const Business = () => {
   return (
-    <section id="features" className={layout.section}>
+    <section id="product" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           Biznes rivojlantiring, <br className="sm:block hidden" /> pulni hal
@@ -20,7 +20,7 @@ const Business = () => {
       </div>
       <div className={`${layout.sectionImage} flex-col`}>
         {features.map((feature, idx) => (
-            <FeatureCard key={feature.id} {...feature} idx={idx}/>
+          <FeatureCard key={feature.id} {...feature} idx={idx} />
         ))}
       </div>
     </section>
