@@ -43,7 +43,7 @@ export const features = [
     id: 1,
     icon: (
       <AiFillStar
-        className={`w-[50%] h-[50%] object-contain icons text-blue text-white`}
+        className={`w-[50%] h-[50%] object-contain icons text-blue`}
       />
     ),
     title: "Mukofotlar",
@@ -54,7 +54,7 @@ export const features = [
     id: 2,
     icon: (
       <BsShieldFillCheck
-        className={`w-[50%] h-[50%] object-contain icons text-white`}
+        className={`w-[50%] h-[50%] object-contain icons`}
       />
     ),
     title: "100% Himoyalangan",
@@ -65,7 +65,7 @@ export const features = [
     id: 3,
     icon: (
       <BsFillSendFill
-        className={`w-[50%] h-[50%] object-contain icons text-white`}
+        className={`w-[50%] h-[50%] object-contain icons`}
       />
     ),
     title: "Balansni o'tkazish",

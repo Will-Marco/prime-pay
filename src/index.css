@@ -84,3 +84,7 @@
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
 }
+
+.icons {
+  color: rgb(74, 193, 248);
+}
