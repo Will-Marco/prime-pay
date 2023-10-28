@@ -88,3 +88,11 @@
 .icons {
   color: rgb(74, 193, 248);
 }
+
+.box-shadow {
+  box-shadow: var(--card-shadow);
+}
+
+.bg-dark-gradient {
+  background: var(--black-gradient);
+}
