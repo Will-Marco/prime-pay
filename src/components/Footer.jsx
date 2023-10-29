@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="mr-10 flex-1 flex flex-col justify-start">
           <img src={logo} alt="logo" className="w-[250px] object-contain" />
           <p className={`${styles.paragraph} mt-4 max-w-[350px]`}>
-            To'lovlarni oson ishonchli va xavfsiz qilisning yangi usuli
+            To'lovlarni oson ishonchli va xavfsiz qilishning yangi usuli
           </p>
         </div>
 
